@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="formAnchorPane" prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.AddItemFormController">
+   <children>
+      <JFXTextField fx:id="taskTextField" focusColor="#211e19" labelFloat="true" layoutX="200.0" layoutY="172.0" prefHeight="40.0" prefWidth="320.0" promptText="Task" unFocusColor="#e7710a" AnchorPane.leftAnchor="200.0" AnchorPane.rightAnchor="200.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="descriptionTextField" focusColor="#211e19" labelFloat="true" layoutX="200.0" layoutY="246.0" prefHeight="40.0" prefWidth="320.0" promptText="Description" unFocusColor="#e7710a" AnchorPane.leftAnchor="200.0" AnchorPane.rightAnchor="200.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </JFXTextField>
+      <JFXButton fx:id="saveTaskButton" alignment="CENTER" layoutX="250.0" layoutY="326.0" prefHeight="50.0" prefWidth="122.0" style="-fx-background-color: #e7710a;" text="Save Task" textFill="WHITE" AnchorPane.leftAnchor="250.0" AnchorPane.rightAnchor="250.0">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </JFXButton>
+      <AnchorPane prefHeight="115.0" prefWidth="701.0" style="-fx-background-color: #e7710a;">
+         <children>
+            <Label alignment="CENTER" layoutX="293.0" layoutY="44.0" prefHeight="40.0" prefWidth="115.0" text="Add Item Form" textFill="#f2f2f2" AnchorPane.leftAnchor="250.0" AnchorPane.rightAnchor="250.0">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label fx:id="taskAddedLabel" layoutX="200.0" layoutY="120.0" prefHeight="40.0" prefWidth="301.0" text="Task Added Successfully! You can add another one" visible="false" AnchorPane.leftAnchor="180.0" AnchorPane.rightAnchor="180.0" AnchorPane.topAnchor="115.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="todosButton" layoutX="539.0" layoutY="352.0" prefHeight="35.0" prefWidth="140.0" style="-fx-background-color: #e7710a;" text="TODO'S [2]" textFill="WHITE" visible="false">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

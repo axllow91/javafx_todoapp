@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rootAnchorPane" prefHeight="90.0" prefWidth="300.0" style="-fx-background-color: #323232;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fx:id="iconImageView" fitHeight="38.0" fitWidth="50.0" layoutX="14.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="31.0" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="33.0">
+         <image>
+            <Image url="@../assets/if_Task_Manager_81996.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="taskLabel" layoutX="48.0" layoutY="16.0" prefHeight="25.0" prefWidth="208.0" style="-fx-background-color: #323232;" text="Task" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="descriptionLabel" layoutX="68.0" layoutY="39.0" prefHeight="25.0" prefWidth="240.0" style="-fx-background-color: #00a9ec;" text="Description" textFill="WHITE" AnchorPane.rightAnchor="10.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="dateLabel" alignment="CENTER_RIGHT" layoutX="50.0" layoutY="78.0" prefHeight="20.0" prefWidth="240.0" style="-fx-background-color: #ffffff;" text="Date Created" textFill="#00a9ec" AnchorPane.bottomAnchor="4.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="10.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="deleteImageButton" fitHeight="20.0" fitWidth="20.0" layoutX="376.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="70.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@../assets/if_Untitled-2-13_1582591.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="listUpdateButton" fitHeight="20.0" fitWidth="20.0" layoutX="256.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="22.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@../assets/sinchronize-20.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
